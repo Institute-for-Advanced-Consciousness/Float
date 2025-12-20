@@ -1,0 +1,26 @@
+# Data files (don't commit raw data to public repos)
+data/*.csv
+data/*.rds
+
+# Output files (reproducible, so don't need to track)
+output/tables/*.png
+output/tables/*.html
+output/tables/*.pdf
+output/*.rds
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+*.Rproj
+
+# Temporary files
+*~
+*.tmp
+*.bak
