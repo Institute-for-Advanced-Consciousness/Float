@@ -32,7 +32,6 @@ table_intero <- create_anova_table(
   include_test = TRUE
 )
 
-print(table_intero)
 
 # Save table
 gt::gtsave(table_intero, "output/tables/table_intero.png")

@@ -32,7 +32,6 @@ table_11dasc <- create_anova_table(
   include_test = FALSE
 )
 
-print(table_11dasc)
 
 # Save table
 gt::gtsave(table_11dasc, "output/tables/table_11dasc.png")

@@ -32,7 +32,6 @@ table_clinical <- create_anova_table(
   include_test = TRUE
 )
 
-print(table_clinical)
 
 # Save table
 gt::gtsave(table_clinical, "output/tables/table_clinical.png")

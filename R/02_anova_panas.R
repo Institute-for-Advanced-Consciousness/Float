@@ -31,7 +31,6 @@ table_panas <- create_anova_table(
   include_test = TRUE
 )
 
-print(table_panas)
 
 # Save table
 gt::gtsave(table_panas, "output/tables/table_panas.png")

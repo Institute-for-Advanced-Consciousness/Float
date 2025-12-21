@@ -29,7 +29,6 @@ gh_results <- run_games_howell_OB(only_complete_data)
 # ============================================
 
 OB_plot <- create_OB_barplot(OB_summary, gh_results)
-print(OB_plot)
 
 ggsave("output/figures/OB_barplot.png", OB_plot, width = 8, height = 6, dpi = 300)
 

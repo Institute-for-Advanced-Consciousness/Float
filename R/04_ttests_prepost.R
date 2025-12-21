@@ -100,7 +100,6 @@ auto_results <- run_prepost_auto(only_complete_data, prepost_pairs, alpha_norm =
 # ============================================
 
 pre_post_table <- create_prepost_table(auto_results)
-print(pre_post_table)
 
 gt::gtsave(pre_post_table, "output/tables/pre_post_table.png")
 

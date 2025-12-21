@@ -72,7 +72,6 @@ simple_summary <- add_mediation_fdr(simple_summary)
 # ============================================
 
 mediation_table <- create_simple_mediation_table(simple_summary)
-print(mediation_table)
 
 gt::gtsave(mediation_table, "output/tables/simple_mediation_table.png")
 

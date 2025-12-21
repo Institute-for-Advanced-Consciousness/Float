@@ -84,7 +84,6 @@ post_hoc_OB_summary$FDR_p <- p.adjust(post_hoc_OB_summary$Indirect_p, method = "
 # ============================================
 
 post_hoc_table <- create_ob_followup_table(post_hoc_OB_summary)
-print(post_hoc_table)
 
 gt::gtsave(post_hoc_table, "output/tables/post_hoc_ob_table.png")
 

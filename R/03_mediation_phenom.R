@@ -72,7 +72,6 @@ post_hoc_phenom_summary$FDR_p <- p.adjust(post_hoc_phenom_summary$Indirect_p, me
 # ============================================
 
 post_hoc_phenom_table <- create_phenom_followup_table(post_hoc_phenom_summary)
-print(post_hoc_phenom_table)
 
 gt::gtsave(post_hoc_phenom_table, "output/tables/post_hoc_phenom_table.png")
 
