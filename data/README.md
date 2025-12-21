@@ -3,6 +3,7 @@
 Place your data files here:
 - `raw_data.csv`
 - `only_complete_data.csv`
+- `phenom_psilo_float.csv`
 
 These files are not tracked by git (see .gitignore).
 

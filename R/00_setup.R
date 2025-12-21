@@ -10,7 +10,12 @@ packages <- c(
   "effectsize",
   "car",
   "purrr",
-  "broom"
+  "broom",
+  "ggradar",
+  "ggdist",
+  "ggsignif",
+  "ggpubr",
+  "stringr"
 )
 
 installed <- packages %in% rownames(installed.packages())

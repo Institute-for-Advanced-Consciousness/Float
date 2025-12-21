@@ -1,6 +1,6 @@
 # Output Directory
 
-Generated tables and results will be saved here after running the analysis pipeline!
+Generated tables, figures and results will be saved here after running the analysis pipeline!
 
 ## Tables (output/tables/)
 - `table_11dasc.png` - 11-ASC ANOVA
@@ -12,6 +12,11 @@ Generated tables and results will be saved here after running the analysis pipel
 - `post_hoc_ob_table.png` - Oceanic Boundlessness follow-up mediation
 - `post_hoc_phenom_table.png` - Phenomenology follow-up
 - `pre_post_table.png` - Pre-post comparisons
+
+## Figures (output/figures/)
+- `simple_radar_plot.png` - Psychedelics vs. Float Phenomenology Radar
+- `dose_response_radar_plot.png` - Psilocybin (dose-response) vs. Float Phenomenology Radar
+- `OB_barplot.png` - Oceanic Boundlessness, between-group bar plot
 
 ## Data Objects
 - `simple_mediation_summary.rds` - Full mediation results
