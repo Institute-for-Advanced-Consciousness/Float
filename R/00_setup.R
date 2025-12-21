@@ -15,7 +15,8 @@ packages <- c(
   "ggdist",
   "ggsignif",
   "ggpubr",
-  "stringr"
+  "stringr",
+  "gtsummary"
 )
 
 installed <- packages %in% rownames(installed.packages())
