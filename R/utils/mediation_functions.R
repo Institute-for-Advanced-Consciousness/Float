@@ -3,6 +3,14 @@
 # Shared functions for running mediation analyses
 # ============================================
 
+# Suppress R CMD check notes about dplyr/tidyverse NSE
+if(getRversion() >= "2.15.1") {
+  utils::globalVariables(c(
+    "Model", "mediator", "outcome", "family",
+    "Indirect_p", "FDR_p"
+  ))
+}
+
 #' Run simple mediation analysis using lavaan
 #'
 #' @param data Data frame containing all variables
@@ -14,9 +22,9 @@
 #' @param model_name Optional name for the model
 #' @return List containing all path coefficients and model statistics
 run_simple_mediation <- function(data, mediator_var, outcome_var, 
-                                 predictor_var = "binary_group_num", 
+                                 predictor_var = "pooled_group_num", 
                                  covariates = NULL, 
-                                 bootstrap = 100, model_name = NULL) {
+                                 bootstrap = 5000, model_name = NULL) {
 
   # Add covariates to model
   covs_string <- ""
