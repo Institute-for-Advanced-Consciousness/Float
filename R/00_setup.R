@@ -1,6 +1,6 @@
 # ============================================
 # 00_setup.R
-# Load packages, set options
+# Load/install packages, set options
 # ============================================
 
 packages <- c(
@@ -16,12 +16,13 @@ packages <- c(
   "ggsignif",
   "ggpubr",
   "stringr",
-  "gtsummary"
+  "gtsummary",
+  "readxl"
 )
 
 installed <- packages %in% rownames(installed.packages())
 if (any(!installed)) {
-  install.packages(packages[!installed])
+  install.packages(packages[!installed], repos = "https://cloud.r-project.org/")
 }
 
 # Load all packages

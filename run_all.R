@@ -64,6 +64,13 @@ cat("Step 6: OB Barplot Figure\n")
 source("R/05_OB_barplot.R")
 cat("\n")
 
+# ============================================
+# 7. Measure Administration Table
+# ============================================
+cat("Step 7: Measure Administration Table\n")
+source("R/05_measure_admin_table.R")
+cat("\n")
+
 
 # ============================================
 # Summary
