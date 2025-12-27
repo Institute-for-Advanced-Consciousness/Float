@@ -11,16 +11,7 @@ if(getRversion() >= "2.15.1") {
   ))
 }
 
-#' Run simple mediation analysis using lavaan
-#'
-#' @param data Data frame containing all variables
-#' @param mediator_var Character string of mediator variable name
-#' @param outcome_var Character string of outcome variable name
-#' @param predictor_var Character string of predictor variable (default: "binary_group_num")
-#' @param covariates Character vector of covariate names (can be NULL)
-#' @param bootstrap Number of bootstrap samples (default: 5000)
-#' @param model_name Optional name for the model
-#' @return List containing all path coefficients and model statistics
+# Run simple mediation analysis using lavaan
 run_simple_mediation <- function(data, mediator_var, outcome_var, 
                                  predictor_var = "pooled_group_num", 
                                  covariates = NULL, 
