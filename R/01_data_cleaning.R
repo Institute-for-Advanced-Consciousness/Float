@@ -282,8 +282,8 @@ subscales_panas <- c(
 
 # Pre-post pairs for t-tests
 prepost_pairs <- list(
-  "Negative Affect (PANAS)" = c("prefloat_mean_panasx_negaffect", "postfloat_mean_panasx_negaffect"),
-  "Positive Affect (PANAS)" = c("prefloat_mean_panasx_posaffect", "postfloat_mean_panasx_posaffect"),
+  "Negative Affect (PANAS)" = c("prefloat_mean_panasx_negaffect_score", "postfloat_mean_panasx_negaffect_score"),
+  "Positive Affect (PANAS)" = c("prefloat_mean_panasx_posaffect_score", "postfloat_mean_panasx_posaffect_score"),
   "STAI-S" = c("prefloat_mean_stais", "postfloat_mean_stais"),
   "ASI-3R" = c("baseline_asi3r_score", "postintervention_asi3r_score"),
   "HAM-A" = c("baseline_hama_score", "postintervention_hama_score"),
