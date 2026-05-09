@@ -35,7 +35,7 @@ subscale_labels <- c(
   "alt_postfloat_6_dasc_11d_ele_imagery_score" = "Elementary Imagery",
   "alt_postfloat_6_dasc_11d_com_imagery_score" = "Complex Imagery",
   "alt_postfloat_6_dasc_11d_percepts_score" = "Changed Meaning \n of Percepts",
-  "alt_postfloat_6_dasc_11d_synesthesiae_score" = "Audio-Visual Synesthesiae"
+  "alt_postfloat_6_dasc_11d_synesthesiae_score" = "Audio-Visual Synesthesia"
 )
 
 fived_subscales <- c(
