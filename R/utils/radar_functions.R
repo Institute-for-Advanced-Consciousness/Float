@@ -175,22 +175,22 @@ create_simple_radar <- function(radar_data_norm) {
     group.colours = custom_colors,
     grid.min = 0, grid.mid = 0.25, grid.max = 0.5,
     values.radar = c("0%", "25%", "50%"),
-    grid.label.size = 4,
-    group.line.width = 1.5,
+    grid.label.size = 5,
+    group.line.width = 2.5,
     group.point.size = 1.5,
     legend.position = "right",
-    legend.text.size = 10,
+    legend.text.size = 11,
     legend.title = "Intervention",
-    axis.label.size = 2.25,
+    axis.label.size = 3.2,
     background.circle.colour = "white",
     gridline.mid.colour = "grey"
   ) +
     scale_colour_manual(values = custom_colors, breaks = legend_order) +
     scale_fill_manual(values = custom_colors, breaks = legend_order) +
     theme(
-      plot.title = element_text(size = 12),
-      legend.title = element_text(size = 12),
-      plot.margin = margin(t = 10, r = 0, b = 10, l = 20)
+      plot.title = element_text(size = 14),
+      legend.title = element_text(size = 14),
+      plot.margin = margin(t = 5, r = 0, b = 5, l = 10)
     )
   
   return(radar_plot)
@@ -296,21 +296,21 @@ create_dose_radar <- function(dose_radar_reordered) {
     group.colours = radar_colors,
     grid.min = 0, grid.mid = 0.5, grid.max = 0.75,
     values.radar = c("0%", "50%", "75%"),
-    grid.label.size = 4,
-    group.line.width = 1.5,
+    grid.label.size = 5,
+    group.line.width = 2.5,
     group.point.size = 1.5,
     legend.position = "right",
-    legend.text.size = 10,
+    legend.text.size = 11,
     legend.title = "Intervention",
-    axis.label.size = 2.25,
+    axis.label.size = 3.2,
     background.circle.colour = "white",
     gridline.mid.colour = "grey"
   ) +
     scale_colour_manual(values = radar_colors, breaks = dose_legend_order) +
     scale_fill_manual(values = radar_colors, breaks = dose_legend_order) +
     theme(
-      plot.title = element_text(size = 12),
-      legend.title = element_text(size = 12),
+      plot.title = element_text(size = 14),
+      legend.title = element_text(size = 14),
       plot.margin = margin(t = 10, r = 0, b = 10, l = 20)
     )
   
