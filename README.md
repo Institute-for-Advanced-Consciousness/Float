@@ -19,6 +19,22 @@ floating/
     └── utils/                # Helper functions
 ```
 
+## Setup
+
+This project uses `renv` for reproducible environments. After cloning:
+
+**RStudio:**
+```r
+renv::restore()  # Installs exact package versions from renv.lock
+```
+
+**VS Code or Terminal:**
+```bash
+R --slave -e "renv::restore()"
+```
+
+This ensures you have the same package versions as the original analysis.
+
 ## How to Run
 
 ### 1. Add Data Files
