@@ -8,7 +8,8 @@ source("R/utils/anova_functions.R")
 
 # Load cleaned data
 dat <- readRDS("data/cleaned_data.rds")
-raw_data <- dat$raw_data  # Note: uses raw_data, not only_complete
+raw_data <- dat$raw_data
+only_complete_data <- dat$only_complete
 subscales_intero <- dat$subscales_intero
 
 # ============================================
@@ -19,7 +20,7 @@ subscales_intero <- dat$subscales_intero
 results_intero <- purrr::map2_dfr(
   subscales_intero, 
   names(subscales_intero), 
-  ~run_anova_analysis(raw_data, .x, .y)
+  ~run_anova_analysis(only_complete_data, .x, .y)
 )
 
 # ============================================
