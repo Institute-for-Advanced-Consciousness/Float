@@ -33,6 +33,7 @@ table_5dasc <- create_anova_table(
 
 
 # Save table
-gt::gtsave(table_5dasc, "output/tables/table_5dasc.png")
+#gt::gtsave(table_5dasc, "output/tables/table_5dasc.png")
+gt::gtsave(table_5dasc, "output/tables/table_5dasc.docx")
 
-cat("5D-ASC ANOVA complete. Table saved to output/tables/table_5dasc.png\n")
+cat("5D-ASC ANOVA complete. Table saved to output/tables/table_5dasc.docx\n")

@@ -34,6 +34,6 @@ table_intero <- create_anova_table(
 
 
 # Save table
-gt::gtsave(table_intero, "output/tables/table_intero.png")
+gt::gtsave(table_intero, "output/tables/table_intero.docx")
 
-cat("Interoception ANOVA complete. Table saved to output/tables/table_intero.png\n")
+cat("Interoception ANOVA complete. Table saved to output/tables/table_intero.docx\n")

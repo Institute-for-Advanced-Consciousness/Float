@@ -34,6 +34,6 @@ table_11dasc <- create_anova_table(
 
 
 # Save table
-gt::gtsave(table_11dasc, "output/tables/table_11dasc.png")
+gt::gtsave(table_11dasc, "output/tables/table_11dasc.docx")
 
-cat("11-ASC ANOVA complete. Table saved to output/tables/table_11dasc.png\n")
+cat("11-ASC ANOVA complete. Table saved to output/tables/table_11dasc.docx\n")
