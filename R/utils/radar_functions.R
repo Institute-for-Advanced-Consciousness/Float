@@ -181,7 +181,8 @@ create_simple_radar <- function(radar_data_norm) {
     legend.position = "right",
     legend.text.size = 11,
     legend.title = "Intervention",
-    axis.label.size = 3.2,
+    axis.label.size = 3.75,
+    plot.extent.x.sf = 1.2,
     background.circle.colour = "white",
     gridline.mid.colour = "grey"
   ) +
@@ -302,7 +303,8 @@ create_dose_radar <- function(dose_radar_reordered) {
     legend.position = "right",
     legend.text.size = 11,
     legend.title = "Intervention",
-    axis.label.size = 3.2,
+    axis.label.size = 3.75,
+    plot.extent.x.sf = 1.2,
     background.circle.colour = "white",
     gridline.mid.colour = "grey"
   ) +
