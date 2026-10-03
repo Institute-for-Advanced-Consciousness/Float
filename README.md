@@ -61,4 +61,4 @@ Data files not included in this repository. Contact corresponding author (SKhals
 [TBD]
 
 ## Citation
-[Manuscript in preparation]
+Theo Tobel, Aidan Cone, Emily Choquette, McKenna Garland, Micah A Johnson, Keller Mink, Caitlin Lynch, Joel Frohlich, Justin S Feinstein, Nicco Reggente, Sahib Khalsa, Aquahenosis: a non-pharmacological altered state of consciousness induced by floatation-REST in individuals with anxiety and depression, Neuroscience of Consciousness, Volume 2026, Issue 1, 2026, niag044, https://doi.org/10.1093/nc/niag044
